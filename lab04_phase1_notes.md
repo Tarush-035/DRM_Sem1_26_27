@@ -19,7 +19,7 @@ Fill the seven constants in the Q4(b) cell: `C_OBS`, `P_OBS`, `K_OBS`, `S_OBS`, 
 - Check whether any ex-dividend date falls between the quote date and the expiry. If one does, add it to `DIV_TABLE`.
 
 ## Verify (not yet checked against a primary source)
-- Every row of `DIV_TABLE` against the NSE corporate-actions page for TCS. Eight of the 16 ex-dates are inferred from record dates (T+1) in my source.
+- Every row of `DIV_TABLE` against the NSE corporate-actions page for TCS. Five rows (four distinct ex-dates, all before 2025) are inferred from record dates (T+1) in my source and are marked `inferred` in the table.
 - That there is no demerger, merger or buyback in the window (no hit in the sources I read).
 - `q`: the table gives the trailing-365-day cash dividends divided by the last close.
 
